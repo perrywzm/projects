@@ -1,0 +1,30 @@
+.item-window-modal {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item-window-content {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.item-window-text {
+    text-align: left;
+}
+
+.item-window-text p {
+    margin-bottom: 1.5em !important;
+}
+
+.item-window-image {
+    object-fit: cover;
+}
+
+.item-btn {
+    margin-top: 8px !important;
+}

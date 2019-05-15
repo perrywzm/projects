@@ -1,0 +1,8 @@
+/* For body scroll prevention */
+#root {
+  height: 100%;
+}
+
+html, body {
+  overflow-y: hidden;
+}

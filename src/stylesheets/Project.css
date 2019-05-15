@@ -1,0 +1,27 @@
+.segment-expanded {
+    height: 100%;
+}
+
+.segment {
+    word-wrap: break-word;
+}
+
+.project-item:hover {
+    box-shadow: 0 0 2.5px 2.5px #727272;
+    transition: 0.3s;
+}
+
+.project-item img {
+    margin-bottom: 1em;
+    object-fit: cover;
+}
+
+.project-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.project-image {
+    height:180px !important;
+}
